@@ -1,0 +1,12 @@
+name: SalaryX
+main: net.scruffix.scruffy.SalaryX
+version: 0.0.0
+depend: [Vault]
+commands:
+ salary:
+   description: Base command for SalaryX
+   usage: /salary pay <target> <amount> <interval>
+permissions:
+   salaryx.pay:
+     description: Ability to pay players at a fixed rate.
+     default: true
